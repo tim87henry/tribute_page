@@ -1,12 +1,12 @@
 #bg {
-    background: rgb(76, 143, 143);
-    height: 95%;
+    background: rgb(182, 250, 250);
     margin-left: 20px;
     margin-right: 20px;
+    padding: 10px;
 }
 
 #title {
-    font-family: Verdana;
+    font-family: monospace;
     text-align: center;
 }
 
@@ -18,5 +18,29 @@
 }
 
 #img-caption {
+    font-family: cursive;
     text-align: center;
+}
+
+#tribute-info {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: rgb(108, 212, 212);
+}
+
+#list {
+    list-style-type: circle;
+}
+
+#foot {
+    text-align: center;
+    text-decoration-style: double;
+}
+
+a:link {
+    color:black;
 }
