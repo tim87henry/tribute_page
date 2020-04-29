@@ -1,7 +1,9 @@
 #bg {
     background: rgb(191, 245, 245);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     padding: 10px;
 }
 
@@ -10,8 +12,19 @@
     text-align: center;
 }
 
+#heading {
+    margin-top: 25px;
+    font-size: 32px;
+}
+
+#subheading {
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
 #image {
-    width:50%;
+    width:48%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -20,6 +33,7 @@
 }
 
 #img-caption {
+    margin-top: 6px;
     font-family: 'Noticia Text', serif;
     text-align: center;
 }
@@ -36,9 +50,14 @@
 
 #list {
     list-style-type: circle;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 10px;
 }
 
 #foot {
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
     font-family: 'Sen', sans-serif;
 }
